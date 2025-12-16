@@ -1,0 +1,35 @@
+<div class="container page-content">
+    <div class="form-container">
+        <div class="card">
+            <h2>Open New Account</h2>
+            <p class="subtitle">Start your financial journey with us today.</p>
+
+            <form [formGroup]="accountForm" (ngSubmit)="onSubmit()">
+                <div class="input-group">
+                    <label class="input-label" for="balance">Initial Balance</label>
+                    <input type="number" id="balance" formControlName="balance" class="input-field" placeholder="0.00">
+                </div>
+
+                <div class="input-group">
+                    <label class="input-label" for="currency">Currency</label>
+                    <select id="currency" formControlName="currency" class="input-field">
+                        <option value="MAD">MAD - Moroccan Dirham</option>
+                        <option value="USD">USD - US Dollar</option>
+                        <option value="EUR">EUR - Euro</option>
+                    </select>
+                </div>
+
+                <div *ngIf="error()" class="error-message">
+                    {{ error() }}
+                </div>
+
+                <div class="form-actions">
+                    <a routerLink="/accounts" class="btn btn-outline">Cancel</a>
+                    <button type="submit" class="btn btn-primary" [disabled]="accountForm.invalid || isSubmitting()">
+                        {{ isSubmitting() ? 'Creating...' : 'Create Account' }}
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

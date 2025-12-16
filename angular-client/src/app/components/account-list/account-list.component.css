@@ -1,0 +1,101 @@
+.page-content {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: var(--foreground);
+    letter-spacing: -0.025em;
+}
+
+.accounts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.account-card {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    text-decoration: none;
+    transition: border-color 0.2s;
+}
+
+.account-card:hover {
+    border-color: var(--ring);
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.account-id {
+    font-family: monospace;
+    color: var(--muted-foreground);
+    font-size: 0.75rem;
+}
+
+.balance-label {
+    color: var(--muted-foreground);
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+}
+
+.balance-amount {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--foreground);
+    letter-spacing: -0.025em;
+}
+
+.currency {
+    font-size: 0.875rem;
+    color: var(--muted-foreground);
+    font-weight: 500;
+    margin-left: 0.25rem;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border);
+    color: var(--muted-foreground);
+    font-size: 0.75rem;
+}
+
+.arrow {
+    color: var(--muted-foreground);
+    transition: transform 0.2s, color 0.2s;
+}
+
+.account-card:hover .arrow {
+    transform: translateX(4px);
+    color: var(--foreground);
+}
+
+.loading-state,
+.empty-state {
+    text-align: center;
+    padding: 4rem 0;
+    color: var(--muted-foreground);
+}
+
+.spinner {
+    margin-bottom: 1rem;
+}

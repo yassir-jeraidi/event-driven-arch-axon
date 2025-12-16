@@ -1,0 +1,36 @@
+<div class="container page-content">
+    <div class="header">
+        <h1>Your Accounts</h1>
+        <a routerLink="/create-account" class="btn btn-primary">
+            <span>+ New Account</span>
+        </a>
+    </div>
+
+    <div *ngIf="loading()" class="loading-state">
+        <div class="spinner"></div>
+        <p>Loading your financial data...</p>
+    </div>
+
+    <div *ngIf="!loading() && accounts().length === 0" class="empty-state">
+        <p>No accounts found. Create one to get started.</p>
+    </div>
+
+    <div *ngIf="!loading() && accounts().length > 0" class="accounts-grid">
+        <a *ngFor="let account of accounts()" [routerLink]="['/account', account.id]" class="card account-card">
+            <div class="card-header">
+                <span class="account-id">#{{ account.id | slice:0:8 }}...</span>
+                <span class="badge" [ngClass]="'badge-' + account.status.toLowerCase()">{{ account.status }}</span>
+            </div>
+            <div class="card-body">
+                <div class="balance-label">Total Balance</div>
+                <div class="balance-amount">
+                    {{ account.balance | number:'1.2-2' }} <span class="currency">{{ account.currency }}</span>
+                </div>
+            </div>
+            <div class="card-footer">
+                <span class="date">Created: {{ account.createdDate | date:'mediumDate' }}</span>
+                <span class="arrow">→</span>
+            </div>
+        </a>
+    </div>
+</div>

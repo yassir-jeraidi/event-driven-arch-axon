@@ -1,0 +1,84 @@
+<div class="container page-content" *ngIf="account()">
+    <div class="header">
+        <div class="title-group">
+            <a routerLink="/accounts" class="back-link">← Back</a>
+            <h1>Account Details</h1>
+        </div>
+        <div class="status-actions">
+            <span class="badge" [ngClass]="'badge-' + account()!.status.toLowerCase()">{{ account()!.status }}</span>
+            <div class="btn-group">
+                <button *ngIf="account()!.status === 'CREATED' || account()!.status === 'SUSPENDED'"
+                    (click)="changeStatus('ACTIVATED')" class="btn btn-outline btn-sm">Activate</button>
+                <button *ngIf="account()!.status === 'ACTIVATED'" (click)="changeStatus('SUSPENDED')"
+                    class="btn btn-outline btn-sm">Suspend</button>
+                <button *ngIf="account()!.status !== 'BLOCKED'" (click)="changeStatus('BLOCKED')"
+                    class="btn btn-danger btn-sm">Block</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="grid-layout">
+        <div class="left-column">
+            <div class="card balance-card">
+                <div class="card-label">Current Balance</div>
+                <div class="balance-display">
+                    {{ account()!.balance | number:'1.2-2' }} <span class="currency">{{ account()!.currency }}</span>
+                </div>
+                <div class="account-meta">
+                    <p>ID: {{ account()!.id }}</p>
+                    <p>Created: {{ account()!.createdDate | date:'medium' }}</p>
+                </div>
+            </div>
+
+            <div class="card operation-card">
+                <h3>Quick Operation</h3>
+                <div class="tabs">
+                    <button class="tab" [class.active]="operationType === 'CREDIT'"
+                        (click)="operationType = 'CREDIT'">Credit</button>
+                    <button class="tab" [class.active]="operationType === 'DEBIT'"
+                        (click)="operationType = 'DEBIT'">Debit</button>
+                </div>
+                <div class="operation-form">
+                    <div class="input-group">
+                        <label class="input-label">Amount</label>
+                        <input type="number" [(ngModel)]="operationAmount" class="input-field" placeholder="0.00">
+                    </div>
+                    <button (click)="onOperationSubmit()" [disabled]="operationLoading() || operationAmount <= 0"
+                        class="btn btn-primary full-width">
+                        {{ operationLoading() ? 'Processing...' : (operationType === 'CREDIT' ? 'Deposit Funds' :
+                        'Withdraw Funds') }}
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="right-column">
+            <div class="card transactions-card">
+                <h3>Transaction History</h3>
+                <div class="transactions-list">
+                    <div *ngIf="!account()!.transactions || account()!.transactions!.length === 0"
+                        class="empty-transactions">
+                        No transactions yet.
+                    </div>
+                    <div *ngFor="let tx of account()!.transactions" class="transaction-item">
+                        <div class="tx-icon" [class.credit]="tx.type === 'CREDIT'" [class.debit]="tx.type === 'DEBIT'">
+                            {{ tx.type === 'CREDIT' ? '↓' : '↑' }}
+                        </div>
+                        <div class="tx-details">
+                            <div class="tx-type">{{ tx.type }}</div>
+                            <div class="tx-date">{{ tx.date | date:'short' }}</div>
+                        </div>
+                        <div class="tx-amount" [class.positive]="tx.type === 'CREDIT'"
+                            [class.negative]="tx.type === 'DEBIT'">
+                            {{ tx.type === 'CREDIT' ? '+' : '-' }}{{ tx.amount | number:'1.2-2' }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div *ngIf="loading()" class="loading-state">
+    <div class="spinner"></div>
+</div>
