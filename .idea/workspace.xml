@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1a73bbd2-60a3-4800-8f52-a34333f97fd8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../BigData/tp1/src/main/java/com/rdd/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../BigData/tp1/src/main/java/com/rdd/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DevOps_MLOps/churn-cml-dvc-s3/.github/workflows/chrun-cml-dvc.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DevOps_MLOps/churn-cml-dvc-s3/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../DevOps_MLOps/churn-cml-dvc-s3/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DevOps_MLOps/churn-cml-dvc-s3/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DevOps_MLOps/churn-cml-dvc-s3/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DevOps_MLOps/churn-cml-dvc-s3/metrics.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../DevOps_MLOps/churn-cml-dvc-s3/metrics.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DevOps_MLOps/churn-cml-dvc-s3/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../DevOps_MLOps/churn-cml-dvc-s3/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DevOps_MLOps/churn-cml-dvc-s3/script.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DevOps_MLOps/churn-cml-dvc-s3/script.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DevOps_MLOps/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../DevOps_MLOps/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IA_Avance/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../IA_Avance/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IA_Avance/gpu-test.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../IA_Avance/gpu-test.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NaturalLanguageProcessing/CBow/Atelier1_Cbow.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../NaturalLanguageProcessing/CBow/Atelier1_Cbow.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP1" beforeDir="false" afterPath="$PROJECT_DIR$/../TP1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP2/microservice-graphql/src/main/java/com/example/microservicegraphql/entities/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP2/microservice-graphql/src/main/java/com/example/microservicegraphql/entities/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP2/microservice-graphql/src/main/java/com/example/microservicegraphql/enums/AccountType.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP2/microservice-graphql/src/main/java/com/example/microservicegraphql/enums/AccountType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP2/microservice-graphql/src/main/java/com/example/microservicegraphql/repositories/AccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP2/microservice-graphql/src/main/java/com/example/microservicegraphql/repositories/AccountRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cqrs-axon/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cqrs-axon/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cqrs-axon/src/main/java/event/driven/cqrsaxon/CqrsAxonApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cqrs-axon/src/main/java/event/driven/cqrsaxon/CqrsAxonApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cqrs-axon/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../cqrs-axon/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cqrs-axon/src/test/java/event/driven/cqrsaxon/CqrsAxonApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cqrs-axon/src/test/java/event/driven/cqrsaxon/CqrsAxonApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/server/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/server/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cqrs/CqrsApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cqrs/command/aggregates/AccountAggregate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cqrs/command/commands/ActivateAccountCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cqrs/command/commands/BlockAccountCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cqrs/command/commands/CreateAccountCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cqrs/command/commands/CreditAccountCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cqrs/command/commands/DebitAccountCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cqrs/command/commands/SuspendAccountCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cqrs/command/controllers/AccountCommandController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cqrs/command/dto/CreateAccountRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cqrs/command/dto/CreditAccountRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cqrs/command/dto/DebitAccountRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cqrs/command/events/AccountActivatedEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cqrs/command/events/AccountBlockedEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cqrs/command/events/AccountCreatedEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cqrs/command/events/AccountCreditedEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cqrs/command/events/AccountDebitedEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cqrs/command/events/AccountSuspendedEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cqrs/core/controllers/EventConotroller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cqrs/core/enums/AccountStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cqrs/core/enums/Currency.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cqrs/core/enums/TransactionType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cqrs/core/exceptions/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cqrs/core/services/CurrencyExchangeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cqrs/core/utils/ObjectUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cqrs/query/controllers/AccountQueryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cqrs/query/entities/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cqrs/query/entities/Transaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cqrs/query/handlers/AccountEventHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cqrs/query/handlers/AccountQueryHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cqrs/query/queries/GetAccountQuery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cqrs/query/queries/GetAllAccountsQuery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cqrs/query/repositories/AccountRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cqrs/query/repositories/TransactionRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/cqrs/CqrsApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../index.md" beforeDir="false" afterPath="$PROJECT_DIR$/../index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projection-query-test/src/main/java/com/example/projectionquerytest/config/RepositoryConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../projection-query-test/src/main/java/com/example/projectionquerytest/config/RepositoryConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projection-query-test/src/main/java/com/example/projectionquerytest/entities/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../projection-query-test/src/main/java/com/example/projectionquerytest/entities/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projection-query-test/src/main/java/com/example/projectionquerytest/projections/CustomerProjection.java" beforeDir="false" afterPath="$PROJECT_DIR$/../projection-query-test/src/main/java/com/example/projectionquerytest/projections/CustomerProjection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projection-query-test/src/main/java/com/example/projectionquerytest/repositories/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../projection-query-test/src/main/java/com/example/projectionquerytest/repositories/CustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projection-query-test/src/main/java/com/example/projectionquerytest/services/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../projection-query-test/src/main/java/com/example/projectionquerytest/services/CustomerService.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Record" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="36CZ1GRuQVeG3QpVkucwXvEUNfK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.CqrsApplication.executor&quot;: &quot;Run&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Hakim\Documents\ENSET\SysPara_Dis\cqrs\server" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.example.cqrs.command" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="CqrsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cqrs" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.cqrs.CqrsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.26830.84" />
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-IU-252.26830.84" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1a73bbd2-60a3-4800-8f52-a34333f97fd8" name="Changes" comment="" />
+      <created>1764512297333</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1764512297333</updated>
+      <workItem from="1764512298688" duration="8610000" />
+      <workItem from="1764686968259" duration="5810000" />
+      <workItem from="1764696007359" duration="509000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
